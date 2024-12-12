@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.yml
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.db
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+
+# Results and artifacts
+output/
+results/
+artifacts/
+predictions/
+
+# Model files
+*.ckpt
+*.hdf5
+*.onnx
+*.mlmodel
+*.tflite
+*.pb
+*.pt
+*.pth
+*.sav
+
+# TensorBoard files
+logs/
+events.out.tfevents.*
+
+# Large binary files
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Docker and cloud artifacts
+*.dockerfile
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python-specific files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Conda environments
+*.conda
+*.lock
+
+# Temporary Jupyter files
+*.nbconvert/
+*.nb.html
+
+# MLFlow or other experiment-tracking files
+mlruns/
+experiment_logs/
+
+# Cache files
+.cache/
+*.bak
+*.swp
+*.swp~
+
